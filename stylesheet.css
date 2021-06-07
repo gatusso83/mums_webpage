@@ -1,0 +1,22 @@
+body {
+    background-image: url("Background_img.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+h1 {
+    font-size: 40px;
+    color:white;
+}
+
+h2 {
+    color: rgb(255,47,25);
+}
+
+p {
+    color: white;
+}
+
+
+

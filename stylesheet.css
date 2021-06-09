@@ -18,5 +18,13 @@ p {
     color: white;
 }
 
-
+.btn-group button {
+    justify-content: center;
+    background: transparent;
+    color: orange;
+    padding: 15px 15px;
+    align-self: center;
+    border: 3px solid rgb(54, 196, 54);
+    cursor: pointer;
+}
 

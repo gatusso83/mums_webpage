@@ -10,20 +10,53 @@ h1 {
     color:white;
 }
 
+h2 {
+    color: rgb(255,47,25);
+}
+
+h3 {
+    color: greenyellow;
+}
+
+h4 {
+    color: violet
+}
+
+p {
+    color: white;
+}
+
 .home-pic {
     display: block;
     padding-left: 15%;
     padding-right: 15%;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+    width: auto;
+    resize: both;
 }
 
-h2 {
-    color: rgb(255,47,25);
+.denis-pic {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    resize: both 
 }
 
-p {
-    color: white;
+.denis2 {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    resize: both 
 }
 
 .btn-group button {

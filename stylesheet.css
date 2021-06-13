@@ -1,4 +1,5 @@
 body {
+    text-align: center;
     background-image: url("pics/Background_img.jpg");
     background-repeat: repeat;
     background-position: right top;
@@ -24,28 +25,38 @@ h4 {
 
 p {
     color: white;
+    text-align: justify;
 }
 
+/* can probably make pics into a couple of classes depending on where they reside on 
+the page rather than individual separate classes for each*/
 .home-pic {
     display: block;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: auto;
     resize: both;
 }
 
+.home-pic img {
+    border-radius: 5%;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 75%;
+    height: auto;
+} 
+
 .denis-pic {
     display: block;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: auto;
-    resize: both 
+    resize: both;
+    text-align: left; 
+    padding-left: 5%;
+}
+
+.denis-pic img {
+    display: block;
+    border-radius: 5%;
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .denis2 {

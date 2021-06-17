@@ -1,15 +1,20 @@
 body {
     text-align: center;
-    background-image: url("pics/Background_img.jpg");
-    background-repeat: repeat;
+    background-image: url("pics/sunset.jpg");
+    background-size:cover;
     background-position: right top;
-    background-attachment: scroll;
+    background-attachment: fixed; /*Backgrond fixed when scrolling" 
+    /*background-attachment: scroll;*/
 }
 
 h1 {
+    display: inline-block; 
+    text-align:center;
     font-size: 40px;
     color:white;
+    padding-left:12.5%;
 }
+
 
 h2 {
     color: rgb(255,47,25);
@@ -30,29 +35,39 @@ p {
 
 /* can probably make pics into a couple of classes depending on where they reside on 
 the page rather than individual separate classes for each*/
-.heading button {
+
+/*.heading button {
+    padding-left:20%;
     display:inline-block;
     background-color: transparent;
     text-align: right;
-    width:100%;
-}
+    width:20%;
+}*/
 
-.heading button img{
+.heading img{
     width:50px;
     height:50px;
-    padding-left: 50%
+    float: right;
+    padding-right: 12.5%;
+    margin-top: 25px;
+
 }
 .home-pic {
-    display: block;
+    display:inline-block;
+    max-width:100%;
+    padding-left: 10%;
+    padding-right:10%;
     resize: both;
+    text-align: center;
 }
 
 .home-pic img {
     border-radius: 5%;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(235, 12, 160);
     text-align: center;
-    width: 75%;
+    max-width: 100%;
     height: auto;
+    
 } 
 
 .home_txt {
@@ -106,16 +121,21 @@ the page rather than individual separate classes for each*/
 .btn-group {
     padding: 20px 20px;
     text-align: center;
+}
 
+.square_btn{
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    font-size: large;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
 }
-.btn-group button {
-    background: transparent;
-    color: orange;
-    padding: 15px 15px;
-    text-align: center;
-    border: 3px solid rgb(54, 196, 54);
-    cursor: pointer;
-}
-.btn-group button:hover {
-    color: red;
+
+.square_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
 }

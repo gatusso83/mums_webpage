@@ -12,7 +12,7 @@ h1 {
     text-align:center;
     font-size: 40px;
     color:white;
-    padding-left:12.5%;
+    background-color: rgb(255,255,255,0.6);
 }
 
 
@@ -31,6 +31,7 @@ h4 {
 p {
     color: black;
     text-align: justify;
+    font-weight: bold;
 }
 
 /* can probably make pics into a couple of classes depending on where they reside on 
@@ -74,12 +75,19 @@ the page rather than individual separate classes for each*/
     margin: auto;
     max-width:75%;
     padding:5px;
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255,255,255,0.6);
 }
 
 .footer {
     font-size: 10px;
 
+}
+
+.main-body {
+    margin: auto;
+    max-width:75%;
+    padding:5px;
+    background-color: rgb(255,255,255,0.6);
 }
 
 .denis-pic {
@@ -97,7 +105,7 @@ the page rather than individual separate classes for each*/
     float: left;
     text-align: left;
     margin-right: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(235, 12, 160);
 }
 
 .denis2 {
@@ -117,11 +125,14 @@ the page rather than individual separate classes for each*/
     float: left;
     text-align: left;
     margin-right: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(235, 12, 160);
 }
 
 .btn-group {
-    padding: 20px 20px;
+    margin: auto;
+    max-width:75%;
+    padding:5px;
+   /* padding: 20px 20px; */
     text-align: center;
 }
 
